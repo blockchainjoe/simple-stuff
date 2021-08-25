@@ -5,3 +5,4 @@ COPY config/server.env /config/
 ENV FOLDER=/my-special-folder
 USER root
 RUN mkdir -p $FOLDER
+COPY Dockerfile my-special-folder
