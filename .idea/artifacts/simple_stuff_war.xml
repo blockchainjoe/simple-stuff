@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="simple-stuff:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>simple-stuff</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="simple-stuff.war">
+      <element id="artifact" artifact-name="simple-stuff:war exploded" />
+    </root>
+  </artifact>
+</component>
